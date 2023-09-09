@@ -3,9 +3,9 @@
 
 ## Jointure avec pandas
 
-Inner join : pour une simple jointure, on choisit juste la colonne de jointure
+Inner join : pour une simple jointure, on choisit juste la colonne de jointure(on)
 
-left join ou right join : on choisit la table où on souhaite faire une jointure à gauche ou à droite par un suffixe
+left join ou right join : on choisit la table où on souhaite faire une jointure à gauche ou à droite par un suffixe(suffixes)
 ```python
 import pandas as pd
 
