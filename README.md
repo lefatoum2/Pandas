@@ -14,7 +14,7 @@ proprio = pd.read_csv('propriotaires.csv')
 
 maisons_proprio = proprio.merge(maisons , on='vid', suffixes=('_pro','_mai'))
 
-# Print the value_counts to find the most popular fuel_type
-# print(taxi_own_veh['fuel_type'].value_counts())
+# Print the value_counts 
+# print(maisons_proprio['name'].value_counts())
 
 ```
