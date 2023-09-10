@@ -18,3 +18,9 @@ maisons_proprio = proprio.merge(maisons , on='vid', suffixes=('_pro','_mai'))
 # print(maisons_proprio['name'].value_counts())
 
 ```
+
+## sort_values()
+
+```python
+counted_df.sort_values(by='account', ascending=False)
+```
